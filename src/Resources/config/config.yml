@@ -1,0 +1,15 @@
+trilobit:
+    unsplash:
+        api_url: 'https://api.unsplash.com/'
+
+        api:
+            query:
+            orientation:
+            per_page: int
+            page: int
+
+        orientation:
+            all:
+            landscape:
+            portrait:
+            squarish:

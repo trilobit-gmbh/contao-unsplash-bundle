@@ -1,0 +1,5 @@
+trilobit_unsplash:
+    path: /trilobit/unsplash
+    defaults:
+        _controller: "TrilobitUnsplashBundle:Unsplash:search"
+        _scope: backend
