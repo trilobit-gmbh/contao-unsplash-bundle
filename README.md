@@ -18,16 +18,15 @@ Installation
 
 Install the extension via composer: [trilobit-gmbh/contao-unsplash-bundle](https://packagist.org/packages/trilobit-gmbh/contao-unsplash-bundle).
 
+And add the following code (with the API-Key from the Pexels Website) to the config.yml of your project.
+
+    contao:
+      localconfig:
+        pexelsApiKey: 'Your API-Key'
+        pexelsImageSource: 'large2x'
+
 
 Compatibility
 -------------
 
 - Contao version ~4.4
-
-
-Dependency
-----------
-
-This extension is dependent on the following extensions:
-
-- [[trilobit-gmbh/contao-dcfolder]](https://packagist.org/packages/trilobit-gmbh/contao-dcfolder)

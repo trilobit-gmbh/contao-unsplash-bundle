@@ -162,7 +162,7 @@ class UnsplashZone extends FileUpload
                     $arrLanguages[0]['language'] => [
                         'title' => 'ID: '.$value
                             .' | '
-                            .'Tags: '.implode(' ', array_values(array_map(function ($a) {return $a['title']; }, $arrApiData['id'][$value]['values']['photo_tags'])))
+                            .'Tags: '.implode(' ', array_values(\is_array($arrApiData['id'][$value]['values']['photo_tags']) ? array_map(function ($a) {return $a['title']; }, $arrApiData['id'][$value]['values']['photo_tags']) : ['']))
                             .' | '
                             .'User: '.$arrApiData['id'][$value]['values']['user']['username']
                             .' | '

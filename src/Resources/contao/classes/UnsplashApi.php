@@ -190,9 +190,14 @@ class UnsplashApi
     {
         $response = new Response();
 
-        $response->setContent(json_encode($arrResult));
+        if (\count($arrResult) > 0 && (!\is_array($arrResult['results']) || 0 === \count($arrResult['results']))) {
+            $arrResult['total'] = 0;
+            $response->setStatusCode(Response::HTTP_NO_CONTENT);
+        } else {
+            $response->setStatusCode(Response::HTTP_OK);
+        }
 
-        $response->setStatusCode(Response::HTTP_OK);
+        $response->setContent(json_encode($arrResult));
 
         $response->headers->set('Content-Type', 'application/json');
         $response->headers->set('Pragma', 'no-cache');

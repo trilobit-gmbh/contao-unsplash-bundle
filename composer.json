@@ -11,7 +11,8 @@
     ],
     "require": {
         "contao/core-bundle": "~4.4",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0",
