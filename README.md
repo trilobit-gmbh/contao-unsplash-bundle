@@ -22,8 +22,7 @@ And add the following code (with the API-Key from the Pexels Website) to the con
 
     contao:
       localconfig:
-        pexelsApiKey: 'Your API-Key'
-        pexelsImageSource: 'large2x'
+        unsplashApiKey: 'Your API-Key'
 
 
 Compatibility
