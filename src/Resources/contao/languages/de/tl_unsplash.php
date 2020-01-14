@@ -48,7 +48,7 @@ $GLOBALS['TL_LANG']['MSC']['unsplash']['username'] = 'Benutzer';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['name'] = 'Name';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['bio'] = 'Bio';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['location'] = 'Standort';
-$GLOBALS['TL_LANG']['MSC']['unsplash']['twitter'] = 'twitter';
+$GLOBALS['TL_LANG']['MSC']['unsplash']['twitter'] = 'Twitter';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['instagram'] = 'Instagram';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['tags'] = 'Tags';
 
@@ -56,10 +56,10 @@ $GLOBALS['TL_LANG']['MSC']['unsplash']['hint'] = '<p>Fotos zur Verfügung gestel
     .'<p><strong>Richtlinien</strong></p>'
     .'<ul>'
     .'<li>Standardmäßig ist die API beschränkt auf 5.000 Abfragen pro Stunde.</li>'
-    .'<li>Nennen Sie immer unseren Fotografen wenn möglich (z.B. "Foto von John Doe auf Pexels" mit einem Link zur Fotoseite auf Pexels).</li>'
+    .'<li>Nennen Sie immer unseren Fotografen wenn möglich (z.B. "Foto von John Doe auf Unsplash" mit einem Link zur Fotoseite auf Unsplash).</li>'
     .'</ul>'
     .'<br>'
-    .'<p>API-Dokumentation: <a href="https://unsplash.com/developer/" target="_blank" rel="noopener noreferrer"><u>unsplash.com/developer/</u></a></p>'
+    .'<p>API-Dokumentation: <a href="https://unsplash.com/developers" target="_blank" rel="noopener noreferrer"><u>unsplash.com/developers</u></a></p>'
     .'<p>Beachten Sie bitte die <strong>Unsplash <a href="https://unsplash.com/terms" target="_blank" rel="noopener noreferrer"><u>Nutzungsbedingungen</u></a></strong>!</p>'
 ;
 

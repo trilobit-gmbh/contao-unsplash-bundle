@@ -48,7 +48,7 @@ $GLOBALS['TL_LANG']['MSC']['unsplash']['username'] = 'Username';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['name'] = 'Name';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['bio'] = 'Bio';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['location'] = 'Location';
-$GLOBALS['TL_LANG']['MSC']['unsplash']['twitter'] = 'twitter';
+$GLOBALS['TL_LANG']['MSC']['unsplash']['twitter'] = 'Twitter';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['instagram'] = 'Instagram';
 $GLOBALS['TL_LANG']['MSC']['unsplash']['tags'] = 'Tags';
 
@@ -59,7 +59,7 @@ $GLOBALS['TL_LANG']['MSC']['unsplash']['hint'] = '<p>Photos provided by <a href=
     .'<li>Always call our photographer if possible (for example, "Photo of John Doe on Unsplash" with a link to the photo page on Unsplash).</li>'
     .'</ul>'
     .'<br>'
-    .'<p>API-Dokumentation: <a href="https://unsplash.com/developer/" target="_blank" rel="noopener noreferrer"><u>unsplash.com/developer/</u></a></p>'
+    .'<p>API-Dokumentation: <a href="https://unsplash.com/developers" target="_blank" rel="noopener noreferrer"><u>unsplash.com/developers</u></a></p>'
     .'<p>Please note the <strong>Unsplash <a href="https://unsplash.com/terms" target="_blank" rel="noopener noreferrer"><u>Terms of Service</u></a></strong>!</p>'
 ;
 
