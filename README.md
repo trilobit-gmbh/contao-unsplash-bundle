@@ -10,7 +10,7 @@ With the Unsplash extension you can download images or photos from the free imag
 Backend Ausschnitt
 ------------
 
-![Backend Ausschnitt](docs/images/contao-unsplash-bundle.png?raw=true "TrilobitUnsplashBundle")
+![Backend Ausschnitt](docs/images/unsplash_bundle.png?raw=true "TrilobitUnsplashBundle")
 
 
 Installation
@@ -18,7 +18,7 @@ Installation
 
 Install the extension via composer: [trilobit-gmbh/contao-unsplash-bundle](https://packagist.org/packages/trilobit-gmbh/contao-unsplash-bundle).
 
-And add the following code (with the API-Key from the Pexels Website) to the config.yml of your project.
+And add the following code (with the API-Key from the Unsplash Website) to the config.yml of your project.
 
     contao:
       localconfig:
